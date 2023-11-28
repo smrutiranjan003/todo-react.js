@@ -1,0 +1,16 @@
+.todo-body{
+  position: absolute;
+  height: 75%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+.todo-list li{
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  list-style: none;
+  padding: 12px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
